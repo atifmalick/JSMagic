@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    background-color: lightpink;    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    border: 0.5px solid rgb(189, 187, 187);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0;;
+    display: flex;
+    flex-direction: column;
+}
+#input{
+    border: 0.5px solid rgb(189, 187, 187);
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgba(189, 187, 187, 0.3);
+    padding: 15px 10px;
+}
+#generate{
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(236, 34, 34, 0.774);
+    padding: 5px 10px;
+    color: white;
+}
+#qrcode{
+    width: 250px;
+    height: 200px;
+}
